@@ -8,7 +8,7 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 
-// 摘要+私钥     （私钥泄露会无用）
+
 /**
  * @ClassName:SignaturGenUtil
  * @Description:签名算法
@@ -18,6 +18,7 @@ import javax.crypto.spec.SecretKeySpec;
 public class SignaturGenUtil {
 
 	/**
+	 * // 摘要+私钥     （私钥泄露会无用）
 	 * @Title: generator
 	 * @Description: 生成签名算法
 	 * @param @param pStringToSign

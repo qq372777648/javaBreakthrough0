@@ -11,7 +11,7 @@ import org.apache.commons.net.ftp.FTPFile;
 /**   
 * @author lzw   
 * @date 2016年9月18日 下午1:14:33 
-* @Description: 
+* @Description: 可能要关闭防火墙才行
 * @version V1.0   
 */
 public class 下载 {
@@ -22,11 +22,11 @@ public class 下载 {
 	    String hostName = "120.25.220.137";
 	    String userName = "lzw";
 	    String password = "123456";
-	    String remoteDir = "11";
+	    String remoteDir = "/home/lzw/11";
 	    try {
 	      ftpClient.connect(hostName, 21);
 	      ftpClient.setControlEncoding("UTF-8");
-	      ftpClient.login(userName, password);
+	      System.out.println(ftpClient.login(userName, password));
 	      System.out.println("-");
 	      ftpClient.setFileType(FTPClient.BINARY_FILE_TYPE);
 	      System.out.println("-2");
@@ -35,9 +35,9 @@ public class 下载 {
 	      for (int i = 0; i < files.length; i++) {
 	        System.out.println(files[i].getName());
 	      }
-	      File file = new File("d://index.jsp");
+	      File file = new File("d://1123123.txt");
 	      FileOutputStream fos = new FileOutputStream(file);
-	      ftpClient.retrieveFile(remoteDir + "/index.jsp", fos);
+	      ftpClient.retrieveFile(remoteDir + "/1.txt", fos);
 	      System.out.println("-9");
 	      fos.close();
 	    } catch (SocketException e) {

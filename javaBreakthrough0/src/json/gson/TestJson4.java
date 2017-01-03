@@ -14,6 +14,10 @@ import com.google.gson.Gson;
 public class TestJson4 {
 	public static void main(String[] args) {
 		String result="{\"status\": \"True\", \"docName\": [\"testAlbum\", \"testAlbum2\"]}";
+		
+	
+		
+		
 		Gson gson =new Gson();
 		Map<String,Object> map=gson.fromJson(result,Map.class);
 		for (String key:map.keySet()) {

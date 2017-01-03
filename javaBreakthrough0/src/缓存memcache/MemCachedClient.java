@@ -14,7 +14,7 @@ public class MemCachedClient {
             mcc= new com.danga.MemCached.MemCachedClient();
             
             // 服务器列表和其权重
-            String[] servers ={"192.168.1.52:11211","192.168.1.52:10000"};//分布式服务器地址 default port；11211
+            String[] servers ={"120.25.220.137:11211"};//{"192.168.1.52:11211","192.168.1.52:10000"};//分布式服务器地址 default port；11211
             Integer[] weights = {3};
 
             // 获取socke连接池的实例对象

@@ -9,14 +9,15 @@ public class tests {
 		System.out.println(true&true);
 		System.out.println(false&false);
 		System.out.println(true&false);
-		if(true)
-			return;
+		
 		
 		
 		System.out.println(new String[0].length);
 		String arr[]="".split(";");
 		System.out.println(arr.length); //1
 		System.out.println("".equals(arr[0]));
+		if(true)
+			return;
 		
 		
 		String arr2[]=";x".split(";");

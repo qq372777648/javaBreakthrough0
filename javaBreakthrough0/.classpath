@@ -29,7 +29,7 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-httpclient-3.0.1.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-pool-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/httpclient-4.3.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/httpclient-4.3.5.jar" sourcepath="e:/mavenPro/mvnRepository/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5-sources.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/httpclient-cache-4.1.1.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/httpcore-4.3.2.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/httpmime-4.3.4.jar"/>
