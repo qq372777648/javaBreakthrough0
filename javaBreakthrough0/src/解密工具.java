@@ -13,8 +13,7 @@ public class 解密工具 {
 		//加密文件
 		//LzwEncrypt.encryOrDecryFile( "D://DOC//Desktop//Constant//code(不改)//201605code//丿.txt", "D://DOC//Desktop//Constant//code(不改)//201605code//加密文件.txt",scan.next(),true,false);
 		//解密文件
-		LzwEncrypt.encryOrDecryFile( "D://DOC//Desktop//Constant//code(不改)//201605code//加密文件.txt", "D://DOC//Desktop//Constant//code(不改)//201605code//解密内容.txt",scan.next(),false,true);
-				
+		LzwEncrypt.encryOrDecryFile( "D://DOC//Desktop//my桌面//Constant//code(不改)//201605code//加密文件.txt", "D://DOC//Desktop//Constant//code(不改)//201605code//解密内容.txt",scan.next(),false,true);
 				
 	}
 
